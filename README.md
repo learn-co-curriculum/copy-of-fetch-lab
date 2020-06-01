@@ -37,6 +37,8 @@ shared across platforms.
 
 ## Instructions
 
+To get started, [fork and clone this repository on your local machine][repo].
+
 Getting data from the [Game of Thrones][GoT] API with `fetch()` is a pretty easy
 process, as we've seen. If we're just trying to `GET` some JSON, we can add the
 following code to our JavaScript console in the browser:
@@ -46,6 +48,7 @@ fetch('https://anapioficeandfire.com/api/books')
   .then(resp => resp.json())
   .then(json => console.log(json));
 ```
+
 <p align="center">
   <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fetch-lab/Image_25_AsynchronousJavaScript.png" width="500">
 </p>
@@ -84,7 +87,6 @@ It's not uncommon for developers who are integrating with third-party APIs to
 have to do some exploration of the returned data to find the thing they're
 looking for.
 
-
 ## Deliverables
 
 In `index.js`, there is an empty function, `fetchBooks()`, that is called when
@@ -108,4 +110,9 @@ the world is your oyster!
 
 ![Dancing](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fetch-lab/got-dancing.gif)
 
+## Resources
+
+- [GitHub repository][repo]
+
 [GoT]: https://anapioficeandfire.com/
+[repo]: https://github.com/learn-co-curriculum/copy-of-fetch-lab
