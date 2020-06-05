@@ -124,7 +124,7 @@ the world is your oyster!
   
   <form onsubmit="submitFeedback()">
     <input placeholder="Give us feedback!"></input>
-    <input type="submit">Submit</input>
+    <input type="submit" />
   </form>
   
 </footer>
