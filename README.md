@@ -122,10 +122,7 @@ the world is your oyster!
     <img onsubmit="submitThumbsDown()" src="https://curriculum-content.s3.amazonaws.com/thumbs-down.png" alt="thumbs down button" width="50px" height="50px" />
   </div>
   
-  <form onsubmit="submitFeedback()">
-    <input placeholder="Give us feedback!"></input>
-    <input type="submit" />
-  </form>
+  <h5>Have specific feedback? <a href="https://github.com/learn-co-curriculum/copy-of-fetch-lab/issues/new">Tell us here!</a></h5>
   
 </footer>
 
