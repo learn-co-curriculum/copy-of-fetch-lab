@@ -123,7 +123,7 @@ the world is your oyster!
   </div>
   
   <form onsubmit="submitFeedback()">
-    <textarea placeholder="Give us feedback!"></textarea>
+    <input placeholder="Give us feedback!"></input>
     <input type="submit">Submit</input>
   </form>
   
