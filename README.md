@@ -1,5 +1,3 @@
-# `fetch()` Lab
-
 ## Learning Goals
 
 - Use `fetch()` to programmatically make a web request
@@ -116,3 +114,19 @@ the world is your oyster!
 
 [GoT]: https://anapioficeandfire.com/
 [repo]: https://github.com/learn-co-curriculum/copy-of-fetch-lab
+
+<footer style="display: block; text-align: center;">
+  <h5>How do you feel about this lesson?</h5>
+  <div>
+    <img onsubmit="submitThumbsUp()" src="https://curriculum-content.s3.amazonaws.com/thumbs-up.png" alt="thumbs up button" width="50px" height="50px" />
+    <img onsubmit="submitThumbsDown()" src="https://curriculum-content.s3.amazonaws.com/thumbs-down.png" alt="thumbs down button" width="50px" height="50px" />
+  </div>
+  
+  <form onsubmit="submitFeedback()">
+    <textarea placeholder="Give us feedback!"></textarea>
+    <input type="submit">Submit</input>
+  </form>
+  
+</footer>
+
+<p style="margin: 0; padding: 0;"><a style="position: absolute; right: 5px; top: 5px" href="https://github.com/learn-co-curriculum/copy-of-fetch-lab" target="_blank" rel="noopener"><img src="https://curriculum-content.s3.amazonaws.com/GitHub-Mark-32px.png" alt="Link to GitHub Repo" /></a></p>
